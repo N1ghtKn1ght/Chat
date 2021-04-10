@@ -78,6 +78,6 @@ body{
 }
 
 @keyframes hide {
-    from{opacity: 1; height: 20px;}
+    from{opacity: 1; height: 20px; display: block;}
     to{opacity: 0; height: 0; display: none;}
 }
