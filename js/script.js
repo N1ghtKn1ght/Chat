@@ -12,6 +12,7 @@ inputs.forEach((e)=> {
         if(e.value.length == 0){
             label.style.animation = 'hide .1s'
             label.style.animationFillMode = 'both'
+            setTimeout(() => {label.style.display = 'none'}, 150)
         }
     })
 })
